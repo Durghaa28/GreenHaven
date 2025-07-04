@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-20">
+        <h1 class="text-2xl">GreenHaven</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        
+
+        <ul class="gap-5 text-gray-500 hidden md:flex sticky">
+            <li class="hover:underline hover:text-black">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="product.html">Product</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- Product section -->
+     <section class="text-center mt-20">
+        <h1 class="pb-6 text-3xl font-bold">Our Products</h1>
+        <input type="text" placeholder="Search For a Product..."  class="border border-black w-3/4 p-1 focus:outline-none mb-16">
+        <div class="grid grid-cols-2 md:grid-cols-4 grid-rows-6 md:grid-rows-3 m-0 gap-5 mb-10">
+            <div>
+                <img src="p1.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold ">Pothos</h1>
+                <p>₹350</p>
+            </div>
+            <div>
+                <img src="p2.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Areca Palm</h1>
+                <p>₹500</p>
+            </div>
+            <div>
+                <img src="p3.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Snake Plant</h1>
+                <p>₹480</p>
+            </div>
+            <div>
+                <img src="p4.avif" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Fiddle Leaf Fig</h1>
+                <p>₹600</p>
+            </div>
+            <div>
+                <img src="p5.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold ">ZZ Plant</h1>
+                <p>₹700</p>
+            </div>
+            <div>
+                <img src="p6.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Succulent Arrangement</h1>
+                <p>₹450</p>
+            </div>
+            <div>
+                <img src="p7.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Succulents</h1>
+                <p>₹750</p>
+            </div>
+            <div>
+                <img src="p8.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Snake Plant + ZZ Combo</h1>
+                <p>₹1500</p>
+            </div>
+            <div>
+                <img src="p9.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold ">Dracaena sanderiana</h1>
+                <p>₹300</p>
+            </div>
+            <div>
+                <img src="p10.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Aglaonema modestum</h1>
+                <p>₹400</p>
+            </div>
+            <div>
+                <img src="p11.webp" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Peperomia obtusifolia</h1>
+                <p>₹900</p>
+            </div>
+            <div>
+                <img src="p12.jpg" alt=""
+                    class="w-48 h-48 md:w-56 md:h-64 inline hover:shadow-2xl transform hover:-translate-y-2">
+                <h1 class="text-lg font-semibold">Dracaena reflexa</h1>
+                <p>₹700</p>
+            </div>
+        </div>
+     </section>
+    
+    
+
+    <!-- footer -->
+     <section class="bg-green-100 p-5">
+        <h1 class="pb-2 text-xl font-semibold">GreenHaven</h1>
+        <p>Bringing nature closer with indoor plants, flower bouquets, and gifts for every occasion.</p>
+        <br>
+        <h1 class="text-lg">Categories</h1>
+        <p>Indoor Plants | Bouquets | Gifts</p>
+        <br>
+        <p>© 2025 GreenHaven. All rights reserved.</p>
+     </section>
+
+</body>
+</html>
